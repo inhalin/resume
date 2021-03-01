@@ -16,11 +16,11 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #bd5d38;
+  --orange: #e54d26;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #17a2b8;
+  --cyan: #379ad5;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
@@ -4031,7 +4031,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #964a2c !important;
+  background-color: #e9eef4 !important; /* kimin a.bg-primary*/
 }
 
 .bg-secondary {
@@ -4111,6 +4111,44 @@ button.bg-dark:focus {
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+/* kimin bg-<default color> */
+.bg-blue{
+  background-color: #007bff !important;
+}
+.bg-indigo {
+  background-color: #6610f2 !important;
+}
+.bg-purple {
+  background-color: #6f42c1 !important;
+}
+.bg-pink {
+  background-color: #e83e8c !important;
+}
+.bg-red {
+  background-color: #dc3545 !important;
+}
+.bg-orange {
+  background-color: #e54d26 !important;
+}
+.bg-yellow {
+  background-color: #ffc107 !important;
+}
+.bg-green {
+  background-color: #28a745 !important;
+}
+.bg-teal {
+  background-color: #20c997 !important;
+}
+.bg-cyan {
+  background-color: #379ad5 !important;
+}
+.bg-gray {
+  background-color: #6c757d !important;
+}
+.bg-gray-dark {
+  background-color: #343a40 !important;
 }
 
 .border {
@@ -7721,6 +7759,38 @@ a.text-dark:hover, a.text-dark:focus {
   color: inherit !important;
 }
 
+/* kimin text-<default color> */
+.text-blue {
+  color : #007bff !important;
+}
+.text-indigo {
+  color : #6610f2 !important;
+}
+.text-purple {
+  color : #6f42c1 !important;
+}
+.text-pink {
+  color : #e83e8c !important;
+}
+.text-red {
+  color : #dc3545 !important;
+}
+.text-orange {
+  color : #e54d26 !important;
+}
+.text-yellow {
+  color : #ffc107 !important;
+}
+.text-green {
+  color : #28a745 !important;
+}
+.text-teal {
+  color : #20c997 !important;
+}
+.text-cyan {
+  color : #379ad5 !important;
+}
+
 .visible {
   visibility: visible !important;
 }
@@ -8128,6 +8198,13 @@ section.resume-section .resume-section-content {
 .contact h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.bg-java {
+  background-color: #ff2120 !important;
+}
+.text-java {
+  color: #ff2120 !important;
 }
 
 @media (min-width: 768px) {
