@@ -155,7 +155,8 @@ sup {
 }
 
 a {
-  color: #4682B4;
+  /* kimin change color */
+  color: #4682B4; 
   text-decoration: none;
   background-color: transparent;
 }
@@ -2983,7 +2984,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #4682b4;
+  color: #4682b4; /* kimin navbar  */
 }
 /* .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -7827,7 +7828,7 @@ h1 {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #4682b4; /* kimin about social icon color */
 }
 
 .dev-icons {
