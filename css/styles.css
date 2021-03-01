@@ -8189,12 +8189,14 @@ section.resume-section .resume-section-content {
 
 /* kimin contact css */
 .contact {
-  margin-bottom: 3rem;
+  font-family: 'Fjalla One', 'Noto Sans KR', 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
   text-align: center;
-}
-.contact{
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  height: 80%;
 }
+
 .contact h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
